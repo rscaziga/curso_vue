@@ -4,7 +4,7 @@
 		<br>
 		<h4> {{ url }} </h4>
 		<br>
-		<h2 v-for="nombre in nombres" :key="nombre.name">
+		<h2 v-for="nombre in nombres" :key="nombre.id">
 			{{ nombre.name }} [{{ nombre.id }}]
 		</h2>
 	</div>
