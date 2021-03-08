@@ -28,7 +28,7 @@ const routes = [
     {path: '/twitter',
         redirect: () => {
           window.location.href = 'http://www.twitter.com'
-          return '/redireccionando_a_teitter'
+          return '/redireccionando_a_twitter'
         }
     },
     
